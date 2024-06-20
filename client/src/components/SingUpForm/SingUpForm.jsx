@@ -1,10 +1,16 @@
+import { useEffect } from 'react'
 import './SingUpForm.css'
 
 export default function SignUpForm() {
+    
+    useEffect(()=>{
+        document.body.className = 'body_SignUpForm'
+    })
+
     return (
-        <body>
+        <>
             {/* <header>
-                <h1>Добро пожалолвать в Omsk Parking</h1>
+                <h1>Удачи на парковках Омска</h1>
             </header> */}
             <div className='form-container'>
                 <form className='form'>
@@ -33,6 +39,6 @@ export default function SignUpForm() {
                     </button>
                 </form>
             </div>
-        </body>
+        </>
     )
 }
