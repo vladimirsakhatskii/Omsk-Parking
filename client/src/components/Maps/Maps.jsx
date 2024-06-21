@@ -4,9 +4,14 @@ import './Maps.css';
 export default function Maps() {
     return (
         <YMaps>
-            <div className='map'>
-                <Map defaultState={{ center: [55.75, 37.57], zoom: 9 }} />
-            </div>
+                <Map className='map'
+                    defaultState={{
+                        center: [54.989347, 73.368221],
+                        zoom: 12,
+                        controls: ["zoomControl", "fullscreenControl"],
+                    }}
+                    modules={["control.ZoomControl", "control.FullscreenControl"]}
+                />
         </YMaps>
     )
 }

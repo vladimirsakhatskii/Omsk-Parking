@@ -1,6 +1,6 @@
 import SingUpForm from './components/SingUpForm/SingUpForm'
 import Base from './components/Base'
-import Header from './components/Header'
+import Header from './components/Header/Header'
 import Maps from './components/Maps/Maps'
 import { useState } from 'react'
 

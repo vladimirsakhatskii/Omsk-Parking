@@ -1,7 +1,9 @@
 .map {
     position: absolute;
-    left: 849px;
+    left: 900px;
     right: 28px;
     top: 261px;
     bottom: 85px;
+    width: 450px;
+    height: 454px;
 }

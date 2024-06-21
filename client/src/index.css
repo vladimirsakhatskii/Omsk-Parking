@@ -7,7 +7,6 @@
     margin-top: 20px;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid gray;
     padding: 5px;
     font-family: 'Inter', sans-serif;
 }
@@ -23,7 +22,7 @@ body {
     margin: 0;
     height: 100vh;
     font-family: 'Inter', sans-serif;
-    background-color: aqua;
+    background-color: rgb(207, 204, 204);
 }
 
 header {
@@ -33,4 +32,11 @@ header {
     padding: 2em 10%;
     background: rgb(242, 193, 100);
     color: #fff;
+    display: flex;
+}
+
+h1{
+    color: black;
+    margin-left: 3rem;
+    text-decoration: underline;
 }

@@ -1,9 +1,10 @@
+import Logo from '../Logo'
 import { useEffect } from 'react'
 import './SingUpForm.css'
 
 export default function SignUpForm() {
-    
-    useEffect(()=>{
+
+    useEffect(() => {
         document.body.className = 'body_SignUpForm'
     })
 
@@ -14,6 +15,7 @@ export default function SignUpForm() {
             </header> */}
             <div className='form-container'>
                 <form className='form'>
+                    <Logo></Logo>
                     <input
                         type="name"
                         placeholder="Your name"

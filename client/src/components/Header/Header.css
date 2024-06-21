@@ -1,0 +1,10 @@
+.btn-group{
+    margin-left: 40rem;
+    margin-top: 1rem;
+}
+
+.btn{
+    width: 8rem;
+    height: 40px;
+    border-radius: 10px;
+}

@@ -1,14 +1,15 @@
 .form-container {
     height: 100vh;
-    padding: 20px;
+    padding: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    float: left;
 }
 
 .form {
-    background-color: white;
+    background-color: rgb(242, 193, 100);
     padding: 50px 70px;
     border-radius: 10px;
     display: flex;
@@ -20,10 +21,8 @@
 .submit {
     width: 60%;
     padding: 10px;
-    border-radius: 5px;
-    color: white;
-    background-color: #1c247a;
-    border: none;
+    border-radius: 10px;
+    color: black;
     cursor: pointer;
     margin: 1rem;
 }
