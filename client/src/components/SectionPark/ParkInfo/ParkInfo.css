@@ -1,0 +1,11 @@
+.box-info {
+  height: 70px;
+  border-radius: 8px;
+  background-color: white;
+  margin: 1rem;
+  display: flex;
+}
+
+.name-parks {
+  margin: 1rem;
+}
