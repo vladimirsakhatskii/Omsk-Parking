@@ -1,0 +1,34 @@
+<svg width="90.000000" height="80.000000" viewBox="0 0 90 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_11_3_dd" x="0.000000" y="0.000000" width="90.000000" height="80.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.66667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip21_33">
+			<rect id="img - enter" width="58.181816" height="62.921345" transform="translate(22.454590 4.146057)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="button_enter" width="80.000000" height="70.000000" transform="translate(5.000000 1.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g filter="url(#filter_11_3_dd)">
+		<rect id="Прямоугольник 8" x="5.000000" y="1.000000" rx="10.000000" width="80.000000" height="70.000000" fill="#F8D48F" fill-opacity="1.000000"/>
+		<rect id="Прямоугольник 8" x="7.500000" y="3.500000" rx="10.000000" width="75.000000" height="65.000000" stroke="#000000" stroke-opacity="1.000000" stroke-width="5.000000"/>
+	</g>
+	<path id="Стрелка 1" d="M38.66 33.72L30.57 26.02C29.76 25.25 29.73 24 30.5 23.19C31.28 22.38 32.52 22.35 33.33 23.12L44.92 34.15C45.73 34.93 45.76 36.17 44.99 36.98L33.96 48.57C33.18 49.38 31.94 49.41 31.13 48.64C30.32 47.87 30.29 46.62 31.06 45.81L38.76 37.72L11.59 38.39L11.49 34.39L38.66 33.72Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<g clip-path="url(#clip21_33)">
+		<path id="path" d="M46.69 9.38L46.69 61.82L73.36 53.95L73.36 17.25L46.69 9.38Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M46.69 61.82L73.36 53.95L73.36 17.25L46.69 9.38L46.69 61.82Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="4.000000" stroke-linejoin="round"/>
+		<path id="path" d="M29.72 17.25L46.69 17.25L46.69 53.95L29.72 53.95L29.72 17.25Z" fill="#000000" fill-opacity="0" fill-rule="evenodd"/>
+		<path id="path" d="M46.69 17.25L46.69 53.95L29.72 53.95L29.72 17.25L46.69 17.25Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="4.000000" stroke-linejoin="round"/>
+		<path id="path" d="M53.41 33L53.39 32.98C53.39 31.3 54.71 29.98 56.39 29.98C58.07 29.98 59.39 31.3 59.39 32.98L59.37 33L53.41 33ZM59.37 38.2L59.39 38.22C59.39 39.9 58.07 41.22 56.39 41.22C54.71 41.22 53.39 39.9 53.39 38.22L53.41 38.2L59.37 38.2Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M56.39 32.98L56.39 38.22" stroke="#000000" stroke-opacity="1.000000" stroke-width="6.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

@@ -1,17 +1,26 @@
-import Logo from "../Logo"
-import Button from "../Button/Button"
-import './Header.css'
-
+import Logo from "../Logo";
+import Button from "../Button/Button";
+import "./Header.css";
 
 export default function Header({ active, onChange }) {
-    return (
-        <header>
-            <Logo />
-            <h1>Парковки Омск</h1>
-            <section className="btn-group">
-                <Button className='btn' text='Вход' isActive={active === 'singUp'} onClick={() => onChange('singUp')} />
-            </section>
-            {/* Сделать логотип, приветствие, кнопка перехода на страницу регистрации или входа и отображение аккаунта */}
-        </header>
-    )
+  return (
+    <header>
+      <section className="intro">
+        <Logo />
+        <h1 id="intro-text">Парковки Омска</h1>
+      </section>
+      <section className="btn-group">
+        <Button
+          className={"btn"}
+          isActive={active === "singUp"}
+          onClick={() => onChange("singUp")}
+        >
+          <img src="../ImgButton/button_enter.svg" alt="" />
+        </Button>
+        <Button className={"btn"}>
+          <img src="../ImgButton/button_user.svg" alt="" />
+        </Button>
+      </section>
+    </header>
+  );
 }
